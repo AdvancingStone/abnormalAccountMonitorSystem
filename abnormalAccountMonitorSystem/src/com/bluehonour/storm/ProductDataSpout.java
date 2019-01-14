@@ -36,12 +36,7 @@ public class ProductDataSpout extends BaseRichSpout {
     private Boolean flag = false;
     private boolean flag2 = false;
 
-//    private static Configuration conf = null;
-//
-//    static{
-//    	conf = new Configuration();
-//    	conf.setBoolean("fs.hdfs.impl.disable.cache", true);
-//    }
+
     @Override
     public void open(Map map, TopologyContext topologyContext, SpoutOutputCollector spoutOutputCollector) {
         this.collector = spoutOutputCollector;
