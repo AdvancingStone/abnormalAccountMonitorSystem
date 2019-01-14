@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+<!--         <property name="jdbcUrl">jdbc:mysql://192.168.246.136:3306/abnormalAccount?characterEncoding=utf-8&amp;useSSL=false</property>
+        <property name="user">hadoop</property>
+        <property name="password">hadoop</property> -->
+        
+        <property name="jdbcUrl">jdbc:mysql://47.94.130.146:3306/abnormalAccount?characterEncoding=utf-8&amp;useSSL=false</property>
+        <property name="user">root</property>
+        <property name="password">Ls2012122131435+</property>
+
+        <property name="checkoutTimeout" value="30000"/>
+        <property name="maxPoolSize" value="15"/>
+        <property name="idleConnectionTestPeriod" value="180"/>
+        <property name="maxIdleTime" value="180"/>
+    </default-config>
+    <!-- 额外的配置信息 -->
+</c3p0-config>
